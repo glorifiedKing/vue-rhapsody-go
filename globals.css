@@ -1,0 +1,57 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "SegoeUI-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
+}
+@font-face {
+  font-family: "SegoeUI-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://fonts.animaapp.com/SegoeUI-Semibold") format("truetype");
+}
+@font-face {
+  font-family: "SegoeUI-Semilight";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://fonts.animaapp.com/SegoeUI-Semilight") format("truetype");
+}
+@font-face {
+  font-family: "SegoeUI-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/SegoeUI-Bold") format("truetype");
+}
+@font-face {
+  font-family: "SegoeUI-SemiboldItalic";
+  font-style: italic;
+  font-weight: 600;
+  src: url("https://fonts.animaapp.com/SegoeUI-SemiboldItalic") format("truetype");
+}
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}

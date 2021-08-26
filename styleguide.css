@@ -1,0 +1,159 @@
+:root { 
+  --azure-radiance: #0099ff;
+  --black-22: #000000;
+  --black2: #0000006b;
+  --dove-gray: #707070;
+  --eerie-black: #1a1a1a;
+  --gold: #ffd609;
+  --goldenrod: #ffd779;
+  --horizon: #5d84ac;
+  --mountain-mist: #949494;
+  --nepal: #97acc2;
+  --pigeon-post: #a0bddba3;
+  --regal-blue: #023a72;
+  --sail: #bae3ff;
+  --selective-yellow-3: #ffb900;
+  --selective-yellow2: #ffb609;
+  --shadow-blue: #7a91a9;
+  --white: #ffffff;
+  --zumthor: #eff6fd;
+ 
+  --font-size-l: 14px;
+  --font-size-m: 13px;
+  --font-size-s: 12px;
+  --font-size-xl: 15px;
+  --font-size-xxl: 16px;
+  --font-size-xxxl: 20px;
+  --font-size-xxxxl: 26px;
+ 
+  --font-family-segoe_ui: "Segoe UI", Helvetica;
+  --font-family-segoeui-bold: "SegoeUI-Bold", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+  --font-family-segoeui-semibold: "SegoeUI-Semibold", Helvetica;
+  --font-family-segoeui-semilight: "SegoeUI-Semilight", Helvetica;
+}
+.segoeui-semi-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-semi-bold-selective-yellow-12px {
+  color: var(--selective-yellow-3);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-semi-bold-white-26px {
+  color: var(--white);
+  font-family: var(--font-family-segoe_ui);
+  font-size: var(--font-size-xxxxl);
+}
+
+.segoeui-semi-bold-white-26px-2 {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-semi-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-semi-light-mountain-mist-13px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-segoeui-semilight);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.segoeui-semi-bold-horizon-15px {
+  color: var(--horizon);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-regular-normal-selective-yellow-39px {
+  color: var(--selective-yellow2);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-semi-bold-regal-blue-16px {
+  color: var(--regal-blue);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-bold-shadow-blue-10px {
+  color: var(--shadow-blue);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-semi-bold-goldenrod-13px {
+  color: var(--goldenrod);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-regular-normal-nepal-15px {
+  color: var(--nepal);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-semi-bold-sail-15px {
+  color: var(--sail);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-semi-bold-white-22px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-semi-bold-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+
+.border-1px-pigeon-post {
+  border: 1px solid var(--pigeon-post);
+}
